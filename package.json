@@ -1,14 +1,16 @@
 {
   "name": "ff-library",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "",
   "main": "build/index.js",
   "scripts": {
+    "test": "jest",
     "tsc": "tsc"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "jest": "^27.4.3",
     "typescript": "^4.5.2"
   }
 }
