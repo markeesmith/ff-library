@@ -3,7 +3,8 @@
         "rootDir" : "./",
         "rootDirs": [
             "node_modules",
-            "src"
+            "src",
+            "types"
         ],
         "module": "commonjs",
         "noImplicitAny": true,

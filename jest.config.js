@@ -2,7 +2,7 @@ module.exports = {
     preset: "ts-jest",
     testEnvironment: "node",
     verbose: true,
-    collectCoverage: false,
+    collectCoverage: true,
     rootDir: "./",
     roots: [
         "<rootDir>"
@@ -29,8 +29,5 @@ module.exports = {
         "node_modules/(?!(node-fetch"
         + "|fetch-blob"
         + ")/)",
-    ],
-    moduleNameMapper: {
-        "^node:http/(.*)": "<rootDir>/node-fetch/$1"
-      },
+    ]
 }
