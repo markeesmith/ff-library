@@ -2,22 +2,10 @@ interface UserInfo {
     verification: unknown;
     username: string;
     user_id: string;
-    token: unknown;
-    summoner_region: null;
-    summoner_name: unknown;
-    solicitable: unknown;
-    real_name: unknown;
-    phone: unknown;
-    pending: unknown;
-    notifications: unknown;
+    phone: string;
     is_bot: boolean;
-    email: unknown;
+    email: string;
     display_name: string;
-    deleted: unknown;
-    data_updated: unknown;
-    currencies: unknown;
-    created: unknown;
-    cookies: unknown;
     avatar: string;
   };
   
