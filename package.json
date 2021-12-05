@@ -2,7 +2,7 @@
   "name": "ff-library",
   "version": "0.0.0",
   "description": "",
-  "main": "build/index.js",
+  "main": "",
   "scripts": {
     "test": "jest",
     "build": "tsc"
