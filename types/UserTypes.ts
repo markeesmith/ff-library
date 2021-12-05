@@ -7,6 +7,6 @@ interface UserInfo {
     email: string;
     display_name: string;
     avatar: string;
-  };
-  
-  export { UserInfo };
+}
+
+export { UserInfo };

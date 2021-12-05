@@ -1,154 +1,154 @@
 type LeagueSettings = {
-  max_keepers: number;
-  draft_rounds: number;
-  trade_review_days: number;
-  reserve_allow_dnr: number;
-  capacity_override: number;
-  pick_trading: number;
-  taxi_years: number;
-  taxi_allow_vets: number;
-  last_report: number;
-  disable_adds: number;
-  waiver_type: number;
-  bench_lock: number;
-  reserve_allow_sus: number;
-  type: number;
-  reserve_allow_cov: number;
-  waiver_clear_days: number;
-  daily_waivers_last_ran: number;
-  waiver_day_of_week: number;
-  start_week: number;
-  playoff_teams: number;
-  num_teams: number;
-  reserve_slots: number;
-  playoff_round_type: number;
-  daily_waivers_hour: number;
-  waiver_budget: number;
-  reserve_allow_out: number;
-  offseason_adds: number;
-  playoff_seed_type: number;
-  daily_waivers: number;
-  playoff_week_start: number;
-  daily_waivers_days: number;
-  league_average_match: number;
-  leg: number;
-  trade_deadline: number;
-  reserve_allow_doubtful: number;
-  taxi_deadline: number;
-  reserve_allow_na: number;
-  taxi_slots: number;
-  playoff_type: number;
+    max_keepers: number;
+    draft_rounds: number;
+    trade_review_days: number;
+    reserve_allow_dnr: number;
+    capacity_override: number;
+    pick_trading: number;
+    taxi_years: number;
+    taxi_allow_vets: number;
+    last_report: number;
+    disable_adds: number;
+    waiver_type: number;
+    bench_lock: number;
+    reserve_allow_sus: number;
+    type: number;
+    reserve_allow_cov: number;
+    waiver_clear_days: number;
+    daily_waivers_last_ran: number;
+    waiver_day_of_week: number;
+    start_week: number;
+    playoff_teams: number;
+    num_teams: number;
+    reserve_slots: number;
+    playoff_round_type: number;
+    daily_waivers_hour: number;
+    waiver_budget: number;
+    reserve_allow_out: number;
+    offseason_adds: number;
+    playoff_seed_type: number;
+    daily_waivers: number;
+    playoff_week_start: number;
+    daily_waivers_days: number;
+    league_average_match: number;
+    leg: number;
+    trade_deadline: number;
+    reserve_allow_doubtful: number;
+    taxi_deadline: number;
+    reserve_allow_na: number;
+    taxi_slots: number;
+    playoff_type: number;
 };
 
 type ScoreSettings = {
-  pass_2pt: number;
-  pass_int: number;
-  fgmiss: number;
-  rec_yd: number;
-  xpmiss: number;
-  def_pr_td: number;
-  fgm_30_39: number;
-  blk_kick: number;
-  pts_allow_7_13: number;
-  ff: number;
-  fgm_20_29: number;
-  fgm_40_49: number;
-  pts_allow_1_6: number;
-  st_fum_rec: number;
-  def_st_ff: number;
-  st_ff: number;
-  pts_allow_28_34: number;
-  fgm_50p: number;
-  fum_rec: number;
-  def_td: number;
-  fgm_0_19: number;
-  int: number;
-  pts_allow_0: number;
-  pts_allow_21_27: number;
-  rec_2pt: number;
-  rec: number;
-  xpm: number;
-  st_td: number;
-  def_st_fum_rec: number;
-  def_st_td: number;
-  sack: number;
-  fum_rec_td: number;
-  rush_2pt: number;
-  rec_td: number;
-  pts_allow_35p: number;
-  pts_allow_14_20: number;
-  rush_yd: number;
-  pass_yd: number;
-  pass_td: number;
-  rush_td: number;
-  def_kr_td: number;
-  fum_lost: number;
-  fum: number;
-  safe: number;
+    pass_2pt: number;
+    pass_int: number;
+    fgmiss: number;
+    rec_yd: number;
+    xpmiss: number;
+    def_pr_td: number;
+    fgm_30_39: number;
+    blk_kick: number;
+    pts_allow_7_13: number;
+    ff: number;
+    fgm_20_29: number;
+    fgm_40_49: number;
+    pts_allow_1_6: number;
+    st_fum_rec: number;
+    def_st_ff: number;
+    st_ff: number;
+    pts_allow_28_34: number;
+    fgm_50p: number;
+    fum_rec: number;
+    def_td: number;
+    fgm_0_19: number;
+    int: number;
+    pts_allow_0: number;
+    pts_allow_21_27: number;
+    rec_2pt: number;
+    rec: number;
+    xpm: number;
+    st_td: number;
+    def_st_fum_rec: number;
+    def_st_td: number;
+    sack: number;
+    fum_rec_td: number;
+    rush_2pt: number;
+    rec_td: number;
+    pts_allow_35p: number;
+    pts_allow_14_20: number;
+    rush_yd: number;
+    pass_yd: number;
+    pass_td: number;
+    rush_td: number;
+    def_kr_td: number;
+    fum_lost: number;
+    fum: number;
+    safe: number;
 };
 
 type RosterSettings = {
-  wins: number;
-  waiver_position: number;
-  waiver_budget_used: number;
-  total_moves: number;
-  ties: number;
-  losses: number;
-  fpts: number;
+    wins: number;
+    waiver_position: number;
+    waiver_budget_used: number;
+    total_moves: number;
+    ties: number;
+    losses: number;
+    fpts: number;
 };
 
 type RosterMetadata = {
-  record: string;
-  [nickname: string]: string;
+    record: string;
+    [nickname: string]: string;
 };
 
 type LeagueUserMetadata = {
-  mention_pn: string;
-  mascot_message_emotion_leg_1: string;
-  mascot_item_type_id_leg_9: string;
-  mascot_item_type_id_leg_8: string;
-  mascot_item_type_id_leg_7: string;
-  mascot_item_type_id_leg_6: string;
-  mascot_item_type_id_leg_5: string;
-  mascot_item_type_id_leg_4: string;
-  mascot_item_type_id_leg_3: string;
-  mascot_item_type_id_leg_2: string;
-  mascot_item_type_id_leg_17: string;
-  mascot_item_type_id_leg_16: string;
-  mascot_item_type_id_leg_15: string;
-  mascot_item_type_id_leg_14: string;
-  mascot_item_type_id_leg_13: string;
-  mascot_item_type_id_leg_12: string;
-  mascot_item_type_id_leg_11: string;
-  mascot_item_type_id_leg_10: string;
-  mascot_item_type_id_leg_1: string;
-  allow_pn: string;
+    mention_pn: string;
+    mascot_message_emotion_leg_1: string;
+    mascot_item_type_id_leg_9: string;
+    mascot_item_type_id_leg_8: string;
+    mascot_item_type_id_leg_7: string;
+    mascot_item_type_id_leg_6: string;
+    mascot_item_type_id_leg_5: string;
+    mascot_item_type_id_leg_4: string;
+    mascot_item_type_id_leg_3: string;
+    mascot_item_type_id_leg_2: string;
+    mascot_item_type_id_leg_17: string;
+    mascot_item_type_id_leg_16: string;
+    mascot_item_type_id_leg_15: string;
+    mascot_item_type_id_leg_14: string;
+    mascot_item_type_id_leg_13: string;
+    mascot_item_type_id_leg_12: string;
+    mascot_item_type_id_leg_11: string;
+    mascot_item_type_id_leg_10: string;
+    mascot_item_type_id_leg_1: string;
+    allow_pn: string;
 };
 
 type TransactionSettings = {
-  waiver_bid: number;
-  seq: number;
+    waiver_bid: number;
+    seq: number;
 };
 
 type TransactionMetadata = {
-  notes: string;
+    notes: string;
 };
 
 type TransactionDrops = {
-  [id: number]: number;
+    [id: number]: number;
 };
 
 type TransactionAdds = {
-  [id: number]: number;
+    [id: number]: number;
 };
 
 type TransactionDraftPicks = {
-  season: string;
-  round: number;
-  roster_id: number;
-  previous_owner_id: number;
-  owner_id: number;
-  league_id: unknown;
+    season: string;
+    round: number;
+    roster_id: number;
+    previous_owner_id: number;
+    owner_id: number;
+    league_id: string;
 };
 
 interface LeagueInfo {
@@ -182,7 +182,7 @@ interface LeagueInfo {
     company_id: unknown;
     bracket_id: unknown;
     avatar: unknown;
-};
+}
 
 interface LeagueRosters {
     taxi: unknown;
@@ -196,7 +196,7 @@ interface LeagueRosters {
     metadata: RosterMetadata;
     league_id: string;
     co_owners: unknown;
-};
+}
 
 interface LeagueUsers {
     user_id: string;
@@ -207,7 +207,7 @@ interface LeagueUsers {
     is_bot: unknown;
     display_name: string;
     avatar: string;
-};
+}
 
 interface LeagueMatchups {
     starters_points: Array<number>;
@@ -217,7 +217,7 @@ interface LeagueMatchups {
     players: Array<string>;
     matchup_id: number;
     custom_points: unknown;
-};
+}
 
 interface LeagueWinnersBracket {
     w: number;
@@ -226,7 +226,7 @@ interface LeagueWinnersBracket {
     r: number;
     m: number;
     l: number;
-};
+}
 
 interface LeagueTransactions {
     waiver_budget: Array<number>;
@@ -244,7 +244,7 @@ interface LeagueTransactions {
     created: number;
     consenter_ids: Array<number>;
     adds: TransactionAdds;
-};
+}
 
 interface LeagueTradedPicks {
     season: string;
@@ -252,14 +252,14 @@ interface LeagueTradedPicks {
     roster_id: number;
     previous_owner_id: number;
     owner_id: number;
-};
+}
 
 export {
-  LeagueInfo,
-  LeagueRosters,
-  LeagueUsers,
-  LeagueMatchups,
-  LeagueWinnersBracket,
-  LeagueTransactions,
-  LeagueTradedPicks,
+    LeagueInfo,
+    LeagueRosters,
+    LeagueUsers,
+    LeagueMatchups,
+    LeagueWinnersBracket,
+    LeagueTransactions,
+    LeagueTradedPicks,
 };

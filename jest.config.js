@@ -4,30 +4,14 @@ module.exports = {
     verbose: true,
     collectCoverage: true,
     rootDir: "./",
-    roots: [
-        "<rootDir>"
-    ],
-    moduleDirectories: [
-        "node_modules",
-        "src"
-    ],
-    moduleFileExtensions: [
-        "ts",
-        "tsx",
-        "js",
-        "jsx",
-        "json",
-        "node"
-    ],
-    testMatch: [
-        "**/__tests__/**/*.test.ts"
-    ],
+    roots: ["<rootDir>"],
+    moduleDirectories: ["node_modules", "src"],
+    moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
+    testMatch: ["**/__tests__/**/*.test.ts"],
     transform: {
-        "^.+\\.(t|j)s?$": "babel-jest"
+        "^.+\\.(t|j)s?$": "babel-jest",
     },
     transformIgnorePatterns: [
-        "node_modules/(?!(node-fetch"
-        + "|fetch-blob"
-        + ")/)",
-    ]
-}
+        "node_modules/(?!(node-fetch" + "|fetch-blob" + ")/)",
+    ],
+};
