@@ -4,6 +4,8 @@ import {
     getTradedDraftPicks,
 } from "../src/sleeper/draft";
 
+import { downloadPlayerList } from "../src/sleeper/player";
+
 const draftId = "515530667727593473";
 
 test("Fetches draft detail from draftId", async () => {
