@@ -1,4 +1,8 @@
-import fetch from "node-fetch";
+import fetch, { Response } from "node-fetch";
+
+async function requestResponse(url: string): Promise<Response> {
+    return fetch(url);
+}
 
 async function requestJson<T>(url: string): Promise<T> {
     return fetch(url)
@@ -22,4 +26,4 @@ async function requestStatus(url: string): Promise<number> {
     });
 }
 
-export { requestJson, requestStatus };
+export { requestResponse, requestJson, requestStatus };
