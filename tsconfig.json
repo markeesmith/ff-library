@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+      "rootDir": "./",
+      "rootDirs": ["node_modules", "src"],
+      "module": "commonjs",
+      "noImplicitAny": true,
+      "removeComments": true,
+      "strictNullChecks": true,
+      "noEmitOnError": true,
+      "target": "ES6",
+      "outDir": "build"
+  }
+}
