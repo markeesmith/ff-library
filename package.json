@@ -1,18 +1,20 @@
 {
     "name": "ff-library",
-    "version": "0.0.0",
-    "description": "",
+    "version": "0.0.1",
+    "description": "A cross-platform fantasy football package that provides a simple API for fetching league data",
     "main": "",
     "scripts": {
-        "build": "tsc",
-        "start": "node build/src/index.js"
+        "build": "tsc"
     },
-    "author": "",
+    "author": "Markee Smith",
     "license": "MIT",
     "devDependencies": {
         "@types/jest": "^29.5.0",
         "jest": "^29.5.0",
         "ts-jest": "^29.1.0",
         "typescript": "^5.0.3"
+    },
+    "dependencies": {
+        "node-fetch": "^3.3.1"
     }
 }
