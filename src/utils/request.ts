@@ -28,7 +28,7 @@ class Request {
      * Get the response payload in JSON format
      * @returns A promise that contains the response payload in JSON format
      */
-    async getResponseJson<T>(): Promise<T> {
+    async getJSONResponse<T>(): Promise<T> {
         return fetch(this.url)
             .then((response) => {
                 if (!response.ok) {
@@ -37,6 +37,7 @@ class Request {
                 return response.json() as Promise<T>;
             })
             .then((data) => {
+                console.log("TESTING")
                 return data;
             })
     }
@@ -45,7 +46,7 @@ class Request {
      * Get the response status
      * @returns A promise that contains the response status
      */
-    async getResponseStatus(): Promise<number> {
+    async getStatusOfResponse(): Promise<number> {
         return fetch(this.url)
             .then((response) => {
                 if (!response.ok) {
