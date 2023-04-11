@@ -37,7 +37,6 @@ class Request {
                 return response.json() as Promise<T>;
             })
             .then((data) => {
-                console.log("TESTING")
                 return data;
             })
     }
