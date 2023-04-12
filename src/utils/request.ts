@@ -4,7 +4,7 @@ import fetch, { Response } from "node-fetch"
  * Send async request(s) and receive the response in the desired format
  */
 class Request {
-    url: string;
+    private readonly url: string;
 
     constructor(props: RequestProps) {
         this.url = props.requestUrl;
@@ -64,6 +64,5 @@ interface RequestProps {
 }
 
 export {
-    Request,
-    RequestProps
+    Request
 }
