@@ -1,4 +1,4 @@
-interface UserInfo {
+interface UserTypes {
     verification: unknown;
     username: string;
     user_id: string;
@@ -22,4 +22,4 @@ interface UserInfo {
     avatar: string;
 }
 
-export { UserInfo };
+export { UserTypes };
