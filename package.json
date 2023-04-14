@@ -2,7 +2,7 @@
     "name": "ff-library",
     "version": "0.0.1",
     "description": "A cross-platform fantasy football package that provides a simple API for fetching league data",
-    "main": "",
+    "main": "index.js",
     "scripts": {
         "build": "tsc",
         "test": "jest"

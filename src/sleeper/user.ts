@@ -1,5 +1,5 @@
-import { Request } from "../utils/request"
-import { UserTypes } from "../../types/sleeper/UserTypes"
+import { Request } from "../utils/request";
+import { UserTypes } from "../../types/sleeper/UserTypes";
 
 class User {
     private username: string;
@@ -11,7 +11,7 @@ class User {
 
     constructor(username: string) {
         this.username = username;
-        this.requestUrl = `${userUrlBase}${this.username}`
+        this.requestUrl = `${userUrlBase}${this.username}`;
     }
 
     public async build() {
@@ -41,7 +41,7 @@ class User {
     getAvatar(): string {
         return this.avatar;
     }
-}
+};
 
 const userUrlBase="https://api.sleeper.app/v1/user/";
 

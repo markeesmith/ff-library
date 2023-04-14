@@ -1,4 +1,4 @@
-import { User } from "../../src/sleeper/user"
+import { User } from "../../src/sleeper/user";
 import { UserTypes } from "../../types/sleeper/UserTypes";
 
 const expectedUsername = "DaddyKee";
