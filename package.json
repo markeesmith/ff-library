@@ -1,8 +1,15 @@
 {
     "name": "ff-library",
-    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/markeesmith/ff-library.git"
+    },
+    "version": "0.0.2",
     "description": "A cross-platform fantasy football package that provides a simple API for fetching league data",
-    "main": "index.js",
+    "main": "dist/index.js",
+    "files": [
+        "dist"
+    ],
     "scripts": {
         "build": "tsc",
         "test": "jest"

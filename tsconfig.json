@@ -8,6 +8,6 @@
       "strictNullChecks": true,
       "noEmitOnError": true,
       "target": "ES6",
-      "outDir": "build"
+      "outDir": "dist"
   }
 }
