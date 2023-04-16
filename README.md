@@ -1,5 +1,4 @@
 # ff-library
-==========
 
 A cross-platform fantasy football library that provides an easy-to-use interface for interacting with fantasy football data.
 
@@ -15,7 +14,7 @@ Planned Devleopment:
 
 ## Motivation
 
-The fantasy football data provided by fantasy platforms is lackluster, especially when it comes to dynasty leagues. As an avid fantasy football fan, this drives me crazy. The purpose of the `ff-library` is to provide a simple, user-friendly API to query various fantasy data available through major fantasy football platforms.
+The fantasy football data provided by fantasy platforms is lackluster, especially when it comes to dynasty leagues. As an avid fantasy football fan, this drives me crazy. The goal of the `ff-library` is to provide a simple, user-friendly API to query various fantasy data available through major fantasy football platforms.
 
 ## Installation
 
@@ -33,13 +32,13 @@ import { User } from "ff-library";
 
 ### Fetch User Data
 
-Build the `User` object to access information on provided `username`
+Build the `User` object to access information on provided `username`:
 ```ts
 import { User } from "ff-library";
 
-const exampleUsername = "DaddyKee"
+const exampleUsername = "DaddyKee";
 const user = new User(exampleUsername);
-await user.build()
+await user.build();
 
 console.log(user);
 ```
